@@ -1,0 +1,628 @@
+CSS TUTORIALS
+
+  
+CSS three approaches
+1 - internal 
+2 - external
+3 - inline
+
+color
+background-color
+height
+width 
+min-width
+max-width
+min-height
+max-height..... 
+
+border-width:  specify  
+border-style:  specific styles
+border-color:  specify 
+Shorthand: border: width style color;
+
+outline-width:  specify
+outline-style: specific styles
+outline-color: specify
+outline-offset:  specify
+
+Shorthand: outline: width style color;
+  
+  internal spacing..
+padding-top:
+padding-right:
+padding-left:
+padding-bottom:
+
+Shorthand:
+padding: top left bottom right
+padding: 20px;
+padding : top-bottom right-left;
+	
+
+margin-top: 
+margin-right:
+margin-left:
+margin-bottom: 
+
+Shorthand:
+margin: top left bottpm right
+margin: 20px;
+margin : top-bottom , right-left;
+margin : 10px auto; for center but use with width.
+
+
+box-sizing : values border-box , content-box;
+by default content-box; 
+   
+  	
+
+
+over-flow: values hidden , scroll , auto , visible
+over-flow-x: values hidden , scroll , auto , visible
+over-flow-y: values hidden , scroll , auto , visible
+
+   
+
+ border-top-left-radius:
+ border-top-right-radius:
+ border-bottom-right-radius:
+ border-bottom-left-radius:
+
+ border-radius: top-left top-rigth bottom-right bottom-left;
+
+  box-shadow: x-offset y-offset blur spread color;
+
+   
+  Float is use for making gallery and use for floating the div.
+  float values right , left 
+
+
+
+  Clear Property use for clearing float property on sibling elements..
+  
+  clear values : right , left , both;
+
+	
+
+   Front -end website 
+
+
+
+
+
+   Font properties..
+    
+    font-size:
+    font-family: 
+    font-weight: 
+    font-style:  
+    font-variant: ;
+    line-height: ;
+   
+   
+   
+  Text-Formating Properties.. 
+   
+  text-align : values : left , right , justify  , center 
+  text-align-last  : values : left , right , justify , center ,  auto.
+  text-transform : uppercase , lowercase , capatlize  , none .
+  text-indent   : specify in px. it is only use for first line.
+  word-spacing : specify in px.  
+  letter-spacing : specify in px.
+  
+      
+
+   text-decoration. 
+
+   text-decoration-line: underline , overline , line-through , none;
+   text-decoration-color: any color.
+   text-decoration-style: solid , dotted  , dashed , double , wavy.
+
+ Short-Hand text-decoration: line  color style;
+   syntax: text-decoration : underline red dotted.
+
+
+   text-shadow : x-offset  y-offset blur color;
+   
+    List Style: 
+      
+    list-style-type: disc , square , circle , none;
+    list-style-position
+    list-style-image: url; 
+ 
+ShortHand : list-style : image position type;
+
+         syntax: list-style-none;
+      
+  ==============================================================================================
+    
+    Display : values : none , inline , block , inline-block..
+
+       
+   Visibility: valus  : visible , hidden. 
+
+
+   display vs visibility...
+
+   
+   =========================================================================
+
+   Position : static  , relative , absolute  , fixed , sticky. 
+           but it all use with helper property : left , right , top , bottom..
+
+  
+
+    z-index: it is use with multiple divs because it work on z-axis...
+
+
+  ===========================================================================
+   
+   Background Image::
+
+        background-image: url();
+        background-repeat: repeat , no-repeat , repeat-x , repeat-y , space , round(stretch image).
+        background-position: x , y ; example : left top and center center.
+                              you can give own values in px and %.
+
+
+     Short-hand : background-image background-repeat background-position. 
+
+    background-attachment : values  : scroll  , fixed. 
+   background-size :  auto , length(px or % ) cover , contain (try to adjust).
+
+    background-origin: values padding-box , border-box(default) , content-box.
+    
+  
+    background-clip : 
+   	
+
+      values : padding-box , border-box(default) , content-box , text(new).  
+
+     text work on bg image on text with color transparent. 
+
+   
+      
+
+   background-gradient: 
+
+   Background-Gradient types:
+
+   1) liner gradient
+   2) radial gradients 
+   3) repeating linear gradient
+   4) repeating radia gradient
+
+
+   1) Linear Gradient: top to bottom  , left to right  , right to left , bottom to top.
+        syntax: linear-gradient(direction , color1 , color2);
+         we should give multiple colors..
+        Like : (to bottom left , green , blue).
+     we should give in degree.
+         (60deg , orange , yellow);
+                 
+
+   2) Radial Gradient: center , right bottom , left bottm, left top.
+
+               radial-gradient(green,blue)
+
+    more properties use with percntage.
+
+ 
+  ================================================================================================================================================
+
+
+   opacity : it is use for the transparent of the any thing. rgba() vs opacity.
+
+
+    it's value between 0 to 1.	
+    
+    
+   Cursor : it is the mouse cursor property..   
+
+    
+
+   
+   CSS Units: px , % , em , rem , vh , vw..'
+
+  Absoulte Units
+   cm
+   px
+
+  relative units.
+
+  100%
+
+
+   Variable Make in CSS. 
+
+    :root{
+     --color : blue;
+
+}
+p{
+ color : var(--color);
+}
+
+
+================================================================================================================================
+  
+  
+ 
+calc function for calculations
+
+clip-path ..for making shapes. values circle , ellipse , inset , polygon
+   circle( size at x-axis  y-axis)
+   ellipse( x-size y-size at x-axis y-axis)
+   inset for taking internal part (top right bottom left)
+   polygon for making shapes if have three points (x1 y1 , x2 y2 , x3 y3); 
+ 
+shape outside for nonspacing for clip path: value same clip-path;
+shape-margin use in shapeoutside; in pixels.
+
+  
+
+Filter for apply on images .. values none, blur(),brightness(),constrast(),drop-shadow(),grayscale(),hue-rotate(),invert(),opacity(), saturate() ,sepia() , url()
+  
+   
+
+  
+transition-property values : width , border-radius and so ... , all;
+transition-duration values : numbers in seconds or miliseconds;
+transition-delay values : numbers in seconds or time units;
+transition-timing-function: ease , linear , ease-in , ease-out , ease-in-out , step-start , step-end , steps(6,start)  , cubic-bezier(0.3,0.8,1,0.5)
+Short Hand : transition values : T-P , T-Duration , T-T-F , T-Delay; 
+
+----------------------------------------------------
+  
+   CSS Transform 
+                 there are two tranform type in CSS. 2D and 3D. 
+    
+     transform-origin: left top;
+   
+   CSS Transform 2D values:
+                  rotate(angle);   use for rotate any element.                   like rotateZ(angle); 
+                  translate(x,y);  use for place change any element with x,y.    like translate(50%,50%);
+                  translateX(x);   use for place change any element but in X.    like translateX(50px);
+                  translateY(y);   use for place change any element but in Y     like translateY(100px);
+                  scale(x,y);      use for 2x or 3x of widht and height like scale(2,2)
+                  scaleX(x);       use for 2x or 3x of widht like scaleX(2) 
+                  scaleY(y);       use for 2x or 3x of height like scaleY(2)
+                  skew(x-deg,y-deg);  use for change the angle of x point and y point. 
+                  skewX(x-deg);       use for change the angle of x point.
+                  skewY(y-deg);       use for change the angle of y point.
+                  none;
+  
+    
+   CSS Transform 3D values: 
+                  rotateX(angle);   use for rotate any element on x-axis.        like rotateX(angle);
+                  rotateY(angle);   use for rotate any element on y-axis.        like rotateY(angle);
+                  rotateZ(angle);   use for rotate any element on z-axis.        like rotateZ(angle);
+                  rotate3d(x,y,z,angle);   use for rotate any element on three axis.   like rotate3d(3,4,3,deg);
+                  translateZ(z);     use for place change any element with z.    like translateZ(100px);
+                  translate3d(x,y,z);    use for place change any element on three axis.    like translate3d(50px,40px,10px);
+                  scale3d(x,y,z);       use for 2x or 3x of widht and height like scale(2,2,3);
+                  scaleZ(z);        use for 2x or 3x scaleZ(2); 
+                  perspective(n);     perspective depend on view like perspective(800px);
+                 
+
+ 
+
+
+  CSS perspective property.
+                           it is depend on view that is compulsory use for 3D transform;  
+   
+   Example: perspective: 1000px;   
+
+  CSS Transform-style: 
+                      it is use to 3D transform for view the backend of 3D divs. 
+   it has two values: flat , preserve-3d;
+   flat is by default value;
+   perserve-3d is for view 3D form. 
+
+  
+Backface Visibility : values visible , hidden.
+.
+this property like visibility but this use for backface..
+  
+use for see back of cards.
+
+  
+
+CSS Selectors: 
+
+1)Simple Selectors
+     Type selector    by tag name
+     Class selector   by class name .
+     ID selector     by id name with # 
+     Universal Selector   * 
+
+ 
+2)Combinator Selectors 
+     Descendent selectors: 
+                           Target all tags in any specific tag.
+
+          Example: .div p{ props... }
+          Example: p span{ props... }	 
+
+     Direct Child Selectors:
+                             Target direct tags in any specific tag.
+
+          Example: ul > li{ props... }
+          Example: #div > p{ props... }
+
+     Adjacent Sibling Selectors:
+                                 Target sibling tag but only first tag target.
+          Example: div + p{ props... }
+          Example: ul + p{ props... }
+
+     General Sibling Selectors: 
+                                 Target sibling tags all but after specific tag.
+
+          Example: div ~ p{ props... }
+          Example: ul ~ p{ props... }
+
+3)Attribute Selector:
+                      Styling tags but only specific attribute.
+
+          A[attribute]  
+                       Styling on specific attribute.
+
+          Example:    input[type]
+                      img[alt]
+           
+          A[attribute=value]
+                            Styling on attribute but specific or exact values.
+            
+          Example:    input[type='text'] 
+                      img[alt='cat']
+          
+          A[attribute^=value] 
+                            Styling on begins with value.
+           
+          Example:    img[alt^='cat']
+
+          A[attribute|=value] 
+                            Styling on attribute begins with value with dash separated.
+           
+          Example:    img[alt|='cat']
+
+          A[attribute$=value] 
+                            Styling on attribute ends with value.
+           
+          Example:    img[alt$='cat']
+
+          A[attribute*=value] 
+                            Styling on attribute any where in the value.
+           
+          Example:    img[alt*='cat']
+
+          A[attribute~=value] 
+                            Styling on attribute value with separated with spaces.
+           
+          Example:    img[alt~='cat']
+
+ 
+  Pseudo Classes: 
+    
+   :hover   important
+   :active 
+   :link
+   :visit
+   :focus  imporatant
+   :root  important
+   :nth-child  important
+   :checked    important 
+   
+     
+   
+
+ pseudo Elements
+ 
+   ::placeholder 
+   ::first-line
+   ::first-letter
+   ::selection
+   ::before
+   ::after
+     
+   
+     
+   
+
+    Animation in CSS..
+   
+   animation-name:  give name .
+  animation-duration:  in seconds
+  animation-timing-function: same functions like transition.
+  animatin-delay:  
+  animation-iteration-count: times and count 
+  animation-direction: values: alternate , normal , reverse , alternate-reverse; (it is need count)
+  animation-fill-mode: none , forwards(it does not come at 0% state) , backwards(fill delay time at 0%) , both.
+  animation-play-state: paused , running; it is work on hover or other pseudo class.
+  
+    
+
+ ShortHand : animation  : name duration count direction; 
+    
+   
+   
+  Syntax: 
+
+  @keyframes animationname{
+    
+   from{}
+   to{}
+    
+  0%{}
+  30%{}
+  50%{}
+   100%{}
+
+}
+  
+ 
+
+User-select: it is use for privacy a copy content.. 
+ 
+user-select: values : auto , none , text , all.  
+
+
+   ScrollBar styling.
+   
+   scrollbar pseudo elements use with prefix (non standard).
+   ::scrollbar{} the entire scrollbar:
+     with prefix  ::-webkit-::scrollbar{}
+    
+   ::scrollbar-thumb {} the draggable scrolling handle.  
+     with prefix  ::-webkit-::scrollbar-thumb{}
+    
+   ::scrollbar-track{}  the track (progress bar) of the scrollbar, where there is a gray bar on top of a white bar.
+     with prefix  ::-webkit-::scrollbar-track{}
+    
+   ::scrollbar-corner{}  the bottom corner of the scrollbar, where both horizontal and vertical scrollbars meet.
+                                  This is often the bottom-right corner of the browser window.
+     with prefix  ::-webkit-::scrollbar-corner{}
+
+   
+   Discuss !important Hack..
+    
+     Priority level..
+    
+    
+  Discuss Backdrop-filter:  The backdrop-filter property in CSS is used to apply filter effects (grayscale,contrast,blur, etc) to the background/backdrop of an element	
+
+   backdrop-filter :  values none, blur(),brightness(),constrast(),drop-shadow(),grayscale(),hue-rotate(),invert(),opacity(), saturate() ,sepia();
+
+   most use value is blur ... 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+   dicuss Grid system.. 
+     
+   In css we have grid system that is use look like a float.
+   it is two dimensional grid system.
+    
+   but we learn flexbox.
+    it is one dimensional.. 
+  
+   
+
+   first me we use display : flex property on parent or main class(container).
+
+    we have properties to use flexbox.. 
+
+      this all properties use for flex box. all properties use in parent class except two or something.
+1)   flex-direction: 
+2)   flex-wrap: 
+3)   flex-flow: 
+4)   justify-content: 
+5)   align-items:
+6)   align-content:  
+7)   align-self:
+8)   order:
+9)   flex-grow:
+10)  flex-basis:
+11)  flex-shrink:
+12)  flex:
+    
+  
+   Firts of fall discuss display property with flex value.
+    
+ 
+  1) flex-direction: 
+     
+            values: row (default), row-reverse(it is use for reverse childs) , column , column-reverse.
+     
+
+  2) flex-wrap:
+            values : nowrap (default) , wrap (use for prevent overflow) , wrap-reverse ((use for prevent overflow but in reverse).
+
+
+
+  3) flex-flow:    it is the shorthand of flex-direction and flex-wrap
+    	
+      syntax: flex-flow: flex-direction flex-wrap; 
+
+  
+  4)  justify-content:  it the horizontal alignment.
+
+       justify-content: center ,  flex-start , flex-end , space-around(equal spaces end but in center 2x) , space-between (first and last at the end) , space-evenly(equal spaces).
+ 
+
+  5) align-items: it is the vertical alignment.  (it is use for single row but also work on two or more lines).
+         
+         align-items : values : flex-start , flex-end  , center , stretch (default value), basline (is is align on font-size).
+
+  6) align-content: it is also the vertical alignment.  (it is use for mutliple rows with flex-wrap (width-specific))
+         
+         align-content : values : flex-start , flex-end  , space-around(equal spaces end but in center 2x) , space-between (first and last at the end) , space-evenly(equal spaces).
+  
+  
+  7) align-self: it is the vertical alignment. (but in specific item) or indivisual item.
+         
+         align-items : values : auto , flex-start , flex-end  , center , stretch (default value), basline (is is align on font-size) .
+  
+  8) order: giver property in indivisual item to set a item order. its default value (0).
+
+     but we give -1 it will be at 1st postion. and so on .. -2 , -3  
+
+  9) flex-grow : it is work on child(common class) class or individual class. expend width
+     The flex-grow property specifies how much the item will grow relative to the rest of the flexible items inside the same container.     
+
+       syntax: flex-grow: 0 , 1 , 2;  
+
+  10) flex-basis: it is for give width child divs for responsive. It's value in px or %. it is also like max-width.
+
+  
+  11) flex-shrink: it is use for responsive width.. but dismiss the flex-wrap.
+          flex-shrink: 1;  1 is default value
+            1 , 2, 3.. 
+
+  12) flex : The flex property sets the flexible length on flexible items.   
+   
+          The flex property is a shorthand property for:
+	    
+            flex-grow
+            flex-shrink
+            flex-basis 
+  
+      
+     Syntax  : flex : grow , shrink , basis;
+     
+     
+
+   
+  Media Query for Creating A responsive Website..
+
+  Media types.
+    All
+    print
+    screen it is only works.
+    speech 
+  
+  CSS Logical Operator.
+    And 
+    Not 
+    Only.    
+
+                             breakpoint
+ Syntax: @media screen and (max-width: 100px){
+
+   do css any divs..
+
+
+}
+
+  
+  
+
+  font awesome : for icons
+  google fonts : for font family
+  cssmatics    : for box-shadow 
+  cubic-bezier : for transition 
+  uigradients  : for background-linear.  
+  icon finder  : for icons 
+  
+ 
+
+  

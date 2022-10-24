@@ -1,0 +1,289 @@
+
+What is Bootstrap ?
+ 
+Bootstrap 3 VS Bootstrap 4 VS Bootstrap 5.
+ 
+How many framework of CSS ?
+ 
+Bootstrap. 
+Tailwind CSS. 
+Foundation. 
+Bulma. 
+Skeleton.
+
+but 90% websites lay on bootstrap.
+
+which CSS framework should we learn ?
+  
+
+Advantages of Bootstrap. 
+
+Forms,
+Responsiveness,
+Less Code,
+With Attractive Design.
+Responsive Layouts. 
+
+ 
+Cross Questions.
+
+   
+
+We learn Bootstrap 5.  
+
+
+  
+Resonsiveness depend on common classes.
+container , container-fluid , row , col..
+ 
+ 
+We have a Multiple Breakpoints. 
+
+ Extra extra large (xxl) :  >=1400px
+ Extra large  (xl)       :  >=1200px
+ Large  (lg)             :  >=992px
+ Medium    (md)          :  >=768px
+ Small        (sm)       :  >=576px 
+ Extra Small             :  < 576px 
+   
+    
+ 
+
+What is Grid System ? 
+
+  
+
+ col , col-1 , col-xxl-1 , col-xl-1  , col-lg-1  , col-md-1 , col-sm-1 , col-xs-1;
+
+   
+
+ What is offset ?  
+  
+  offset-* , offset-xxl-* , offset-xl-*  , offset-lg-* , offset-md-* , offset-sm-* , offset-xs-*;
+
+ what is order or re-odering ?
+  
+    order-* , order-xxl-* , order-xl-*  , order-lg-* , order-md-* , order-sm-* , order-xs-*;
+
+  
+  Nesting row exist ???  
+
+
+Same value 0  to 5.
+
+
+  Margin same as CSS. it is spacing external.
+
+ m-* , mr-* , mb-* , mt-* , ml-* , m-xxl-* , m-xl-*  , m-lg-* , m-md-* , m-sm-* , m-xs-* , m-auto , ml-auto , mr-auto
+ 
+  my-* ,
+  mx-*... 
+ 
+
+  Padding same as CSS. it is spacing internal
+
+ p-* , pr-* , pb-* , pt-* , pl-* , p-xxl-* , p-xl-*  , p-lg-* , p-md-* , p-sm-* , p-xs-* .
+
+  py-* ,
+  px-*
+
+    
+ Horizontal Alignment.... 
+
+  same work as a justify-content.
+
+  justify-content-center , justify-content-end , justify-content-start , justify-content-arrond , justify-content-space , justify-content-between.
+   
+   same work on mid-point. 
+ 
+ 
+  
+  Vertical Alignment. 
+    same work as align-item property in CSS.
+
+   align-items-start , align-items-end , align-items-stretch......... 
+   
+  
+  Vertical Alignment with multiple childs (two or more rows). 
+    same work as align-item property in CSS.
+
+   align-content-start , align-content-end , align-content-stretch......... 
+   
+  
+   
+================================================================  
+   
+   Display :
+  
+   d-none , 
+   d-inline,
+   d-block,
+   d-inline-block,
+   d-flex.
+  
+  same work on break points.
+
+  ==================================================
+  
+  Position Classes.
+  
+   position-relative,
+   position-absolute,
+   postion-fixed,
+   postion-sticky,
+   position-static,
+
+   fixed-top , fixed-bottom.. it is use in Navbar , sidebar.
+  
+  
+  
+  background-color , colors
+  
+  
+   text-formatting classes.
+   
+   text-center,
+   text-left,
+   text-right,
+   text-justify.
+   
+ 
+  
+
+   font-size
+   
+     h1 - h6 , display-1 - display-4..
+
+  
+
+
+    Buttons in Bootstrap. 
+
+    btn constant and use other classes : btn-primary, btn-secondary , btn-dark...........
+  
+     
+ =======================================================
+  
+
+
+   borders.. 
+
+   .border  for simple border. 
+   .border-*  put value in * value.
+   .border-top-0 , border-bottom-0 ...
+   .border-primary use with border
+   .border-secondary use with border
+   .border-success  use with border
+   .border-danger   use with border
+   .border-warning  use with border
+   .border-info    use with border
+   .border-light   use with border
+   .border-dark   use with border
+   .border-white   use with border
+
+   
+
+  Forms 
+
+  .form-label .. it is use for label
+  .form-control ..  it is use for form input.
+  .form-control-lg .. it is use with form-control.
+  .form-control-sm ... it is use with form-control.
+
+  
+  for select :
+
+  .form-select .. it is use for select
+  .form-select-lg .. it is use with form-select.
+  .form-select-sm ... it is use with form-select.
+
+  	
+
+   for Radio & checkbox. 
+
+   .form-check-label for label with checkbox.
+   .form-check-input  for radio & checkbox.
+   
+  for range.
+  .form-range for range type.
+
+
+
+
+
+
+
+
+
+================ for gallery ======================
+
+    For Images.
+   
+   .rounded
+   .rounded-top
+   .rounded-end
+   .rounded-bottom
+   .rounded-start
+   .rounded-circle
+   .rounded-pill. 
+   .img-thumbnail
+ 
+
+ =========================== Table  ============================= 
+
+
+.table
+.table-border
+.table-striped
+.table-dark	.table-hover
+.table-responsive with another div.
+
+
+ 
+  
+===========================================     
+
+Loader or Spinners
+
+.spinner-border  use with text-colors
+
+.spinner-grow  use with text-colors
+
+you cane use with spinner-grow-sm or spinner-border-sm
+
+
+=========================================
+
+Modified List
+
+ul .>>>> .list-group
+li >>>   .list-group-item
+
+
+   Carousel Slider ...
+  
+ 
+    
+
+      
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

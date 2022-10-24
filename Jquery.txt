@@ -1,0 +1,151 @@
+Jquery
+
+basic selector
+hide / show / toggle $(selector).hide(speed)
+events : click , hover , mouseenter , mouseleave
+CSS : $(this).css("prop", "value");
+ 
+	
+
+Get Method 
+text()
+html()
+val()
+attr()
+
+Set Method 
+text('text me')
+html('<b> text me in bold </b>')
+val('name')
+attr  eg :  $(selector).attr("href", "https://theproviders.epizy.com") 
+
+ 
+show something in tag
+add 
+append    $('#para').append("text Added"
+prepend   same but in above.
+remove() , empty()
+ 
+	
+ 
+addClass() 
+removeClass()
+toggleClass()
+  
+jquery 
+height
+width
+innerheight
+outerheight
+innerwidth
+outerwidth
+  
+Jquery DOM Traversing 
+
+There are three Traversing methods.
+1) Traversing Upwords
+2) Traversing  downwords
+3) Sideways
+ 
+  
+ 
+  UPWORDS
+parent()
+parents()
+
+   DOWNWORDS
+
+children()
+find()
+
+ 
+SIDEWAYS 
+
+siblings()
+next()     it is just like a sibling but it is work on dawnword only one
+nextAll()     it is just like a sibling but it is work on dawnword all
+
+
+Example : 
+$( ".child-four" ).parent().css( "border", "2px solid red" );
+
+ 
+
+Filtering with all methods.
+first()
+last()
+eq(3)
+filter('.dchild')
+not('.para')
+
+ 
+	
+('content').appendTo('target')	
+('content').prependTo('target')
+('content').clone().appendTo('target');
+hasClass();  >>> Method 
+
+  
+
+Fade : 
+jQuery fadeIn()
+jQuery fadeOut()
+jQuery fadeToggle()
+jQuery fadeTo(speed,opacity);
+
+
+Jquery Sliding Methods. 
+slideDown();
+slideUp();
+slideToggle();
+
+  
+$.noConflict();     //Method 
+
+syntax:
+$.noConflict();
+jQuery(document).ready(function(){
+
+make list filters 
+
+animate()  >>>>>> method
+
+Syntax:
+
+animate({parameters},speed,callback);
+
+make Accordiion
+make hover effect animation
+sperate animate use
+
+stop();	
+ 
+ 
+  
+position()
+offset();
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
