@@ -113,7 +113,7 @@ Same value 0  to 5.
    
 ================================================================  
    
-   Display :
+   Display : 
   
    d-none , 
    d-inline,
@@ -143,11 +143,10 @@ Same value 0  to 5.
    text-formatting classes.
    
    text-center,
-   text-left,
-   text-right,
-   text-justify.
-   
- 
+   text-start,
+   text-end,
+
+	 
   
 
    font-size
@@ -164,7 +163,7 @@ Same value 0  to 5.
      
  =======================================================
   
-
+	
 
    borders.. 
 
@@ -238,8 +237,8 @@ Same value 0  to 5.
 .table-dark	.table-hover
 .table-responsive with another div.
 
-
- 
+	
+   
   
 ===========================================     
 

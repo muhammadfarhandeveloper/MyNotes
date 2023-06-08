@@ -1,0 +1,201 @@
+
+    MS EXCEL 2019 
+
+First of fall do practice some basics
+
+Simple formulas 
+
+1) Addition 
+2) subtraction
+3) division
+4) multiplication
+6) Concatination
+7) percentage 
+8) =sum()
+ ) product
+=sumproduct()  
+9) =min()
+10) =max()
+11) =average()
+12) =count() 
+13) =countblank()
+14) =counta()
+15) =sumif() 
+16) =countif()
+17) =averageif()
+18)=today() for date 
+19)=now() for date & time both
+
+
+INTERMEDIATE LEVEL FORMULAS
+
+
+20) Upper   for text convert into upper case
+21) Lower for text convert into lower
+22) Proper   for text convert into Proper 
+   =rand() 
+23) =randbetween()  syntax  = randbetween(min,max)
+24) =if()          Syntax =if(logical_test,"if_true","else_false")
+25) =datedif()     Syntax =datedif(date_of_birth,rundate,"Formate")
+26) =convert()     syntax = convert(selectsell,from_unit, to_unit) 
+
+
+-------------------------
+
+28) =round        for convert whole number
+29) transpose data 
+
+28) =countifs()    count with multiple criteria 
+29) =sumifs()     Sum with multiple criteria 
+30) =averageifs()  average with multiple criteria
+31) =vlookup()     find all data through a one parameter. 
+32) =Hlookup()    find data but horizontal data. 
+
+
+
+
+IF condition with logical operator.
+AND OR not , so on..... 
+
+
+
+Discuss about pivot table 
+
+
+Conditional Formatting in detail
+
+Data Validation in detail
+
+
+
+33) PMT    (rate or interest in % , number of period , present value)
+34) IPMT   (rate or interest in % , which month or usually use 1 , number of period , present value)
+35) PPMT   (rate or interest in % , which month or usually use 1 , number of period , present value)
+
+
+ 
+
+More advance stuffs
+
+
+iferror formula
+
+Sub total of values or values..
+
+
+
+Match function to find index number
+=match(lookup_value,array,true or false)
+
+Consolidate in data tab
+ 
+
+
+Goal Seek Function 
+
+Goal seek means that achieve the wish target..
+ 
+
+  
+
+VLOOK UP TASKS
+
+Class Mini task
+
+create two table in one sheet seprately
+and put vlookup formula and find data with the reference of emp_id
+
+Example
+ first Table : emp_id , emp_name , emp_gender,
+ second Table : emp_id or emp_name , emp_designation , emp_salary,
+   
+  and in down put vlookup formula and find data with the reference of emp_id
+
+------------------------
+
+  
+Class Task
+
+one table have names column and months columns 
+
+Names     jan  feb , march , april , may , june
+farhan   300  500   250     450     900   100
+ali      400  600   340
+
+
+
+
+put vlookup formula and find data with the reference of name and month
+
+Like :
+
+ NAME : Farhan 
+MONTH : jan       Sell : 300.
+
+---------------------------------
+
+
+Class Task
+
+create one table in sheet 1 
+like : emp_Id , emp_name , emp_gener 
+
+create one another table in sheet 2 
+like : emp_name , emp_designation , emp_salary 
+
+
+create another sheet 3 and put look up formula
+and find data (Name and salary) by the reference of emp_id
+
+
+-------------------------------
+
+Vlook up formula workbook to workbook
+
+
+Create one workbook  1 and put data table
+example : emp_id , emp_name , emp_gender , emp_designation , emp_salary
+
+and create workbook 2 and put vlook up formula and find data from workbook 1.
+
+
+
+-----------------------------
+
+
+
+SUM TASK from another sheets
+
+Class Work
+       	
+     sheet 1  create income sheet and put all income 
+     sheet 2  create expenses sheet and put all expense what you done
+     sheet 3  Create sheet and show sum of income and show sum of expenses and show grand balance 
+
+    income must be multiple
+    expenses must be multiple
+    
+
+   ------------------------------------------------------------
+
+
+   
+
+Class Project 
+
+
+Create Excel Application with multiple sheets using Hyperlink
+
+Requirements:
+
+Place header or sidebar go to sheets
+
+Must be in Salary sheet with 3 years salary and use formula sum , average , v look up.
+
+attendance sheet counta , count , countif with present , absent and salary cut 200 PKR per absent and give total salary. 
+
+Employee sheet with full info of employees 
+
+Full Name , First Name , Last Name, email , age , martial status , address , city , country 
+And use Vlookup with columns to find data.
+

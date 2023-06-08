@@ -1,12 +1,15 @@
-CSS TUTORIALS
 
-  
+CSS TUTORIALS
+cascading style sheet
+	
+	
+
 CSS three approaches
 1 - internal 
 2 - external
 3 - inline
-
-color
+	
+color	
 background-color
 height
 width 
@@ -43,7 +46,7 @@ margin-top:
 margin-right:
 margin-left:
 margin-bottom: 
-
+	
 Shorthand:
 margin: top left bottpm right
 margin: 20px;
@@ -54,7 +57,6 @@ margin : 10px auto; for center but use with width.
 box-sizing : values border-box , content-box;
 by default content-box; 
    
-  	
 
 
 over-flow: values hidden , scroll , auto , visible
@@ -66,17 +68,17 @@ over-flow-y: values hidden , scroll , auto , visible
  border-top-left-radius:
  border-top-right-radius:
  border-bottom-right-radius:
- border-bottom-left-radius:
-
+ border-bottom-left-radius: 
+	
  border-radius: top-left top-rigth bottom-right bottom-left;
 
   box-shadow: x-offset y-offset blur spread color;
-
+		
    
   Float is use for making gallery and use for floating the div.
   float values right , left 
 
-
+	
 
   Clear Property use for clearing float property on sibling elements..
   
@@ -141,7 +143,7 @@ ShortHand : list-style : image position type;
        
    Visibility: valus  : visible , hidden. 
 
-
+	
    display vs visibility...
 
    
@@ -150,7 +152,7 @@ ShortHand : list-style : image position type;
    Position : static  , relative , absolute  , fixed , sticky. 
            but it all use with helper property : left , right , top , bottom..
 
-  
+	  
 
     z-index: it is use with multiple divs because it work on z-axis...
 
@@ -192,7 +194,7 @@ ShortHand : list-style : image position type;
    3) repeating linear gradient
    4) repeating radia gradient
 
-
+	
    1) Linear Gradient: top to bottom  , left to right  , right to left , bottom to top.
         syntax: linear-gradient(direction , color1 , color2);
          we should give multiple colors..
@@ -215,14 +217,13 @@ ShortHand : list-style : image position type;
 
 
     it's value between 0 to 1.	
-    
+    	
+	
     
    Cursor : it is the mouse cursor property..   
 
-    
-
    
-   CSS Units: px , % , em , rem , vh , vw..'
+   CSS Units: px , % , em , rem , vh , vw..'	
 
   Absoulte Units
    cm
@@ -232,7 +233,7 @@ ShortHand : list-style : image position type;
 
   100%
 
-
+	
    Variable Make in CSS. 
 
     :root{
@@ -241,7 +242,7 @@ ShortHand : list-style : image position type;
 }
 p{
  color : var(--color);
-}
+} 
 
 
 ================================================================================================================================
@@ -262,7 +263,7 @@ shape-margin use in shapeoutside; in pixels.
   
 
 Filter for apply on images .. values none, blur(),brightness(),constrast(),drop-shadow(),grayscale(),hue-rotate(),invert(),opacity(), saturate() ,sepia() , url()
-  
+   
    
 
   
@@ -327,7 +328,7 @@ this property like visibility but this use for backface..
 use for see back of cards.
 
   
-
+	
 CSS Selectors: 
 
 1)Simple Selectors
@@ -335,7 +336,7 @@ CSS Selectors:
      Class selector   by class name .
      ID selector     by id name with # 
      Universal Selector   * 
-
+ 	
  
 2)Combinator Selectors 
      Descendent selectors: 
@@ -487,6 +488,10 @@ user-select: values : auto , none , text , all.
    Discuss !important Hack..
     
      Priority level..
+	
+	
+   Filter for apply on images .. values none, blur(),brightness(),constrast(),drop-shadow(),grayscale(),hue-rotate(),invert(),opacity(), saturate() ,sepia() , url()
+
     
     
   Discuss Backdrop-filter:  The backdrop-filter property in CSS is used to apply filter effects (grayscale,contrast,blur, etc) to the background/backdrop of an element	
@@ -494,6 +499,8 @@ user-select: values : auto , none , text , all.
    backdrop-filter :  values none, blur(),brightness(),constrast(),drop-shadow(),grayscale(),hue-rotate(),invert(),opacity(), saturate() ,sepia();
 
    most use value is blur ... 
+
+   
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
     
