@@ -1,14 +1,19 @@
 
 CSS TUTORIALS
 cascading style sheet
-	
-	
+
 
 CSS three approaches
 1 - internal 
 2 - external
 3 - inline
-	
+
+
+tagname
+byclassname
+byid
+universal *
+
 color	
 background-color
 height
@@ -84,12 +89,12 @@ over-flow-y: values hidden , scroll , auto , visible
   
   clear values : right , left , both;
 
-	
+		
 
    Front -end website 
 
-
-
+   
+	
 
 
    Font properties..
@@ -113,6 +118,8 @@ over-flow-y: values hidden , scroll , auto , visible
   letter-spacing : specify in px.
   
       
+-----------------
+
 
    text-decoration. 
 
@@ -144,7 +151,7 @@ ShortHand : list-style : image position type;
    Visibility: valus  : visible , hidden. 
 
 	
-   display vs visibility...
+   display vs visibility... 
 
    
    =========================================================================
@@ -152,8 +159,8 @@ ShortHand : list-style : image position type;
    Position : static  , relative , absolute  , fixed , sticky. 
            but it all use with helper property : left , right , top , bottom..
 
-	  
 
+	
     z-index: it is use with multiple divs because it work on z-axis...
 
 
@@ -260,10 +267,9 @@ clip-path ..for making shapes. values circle , ellipse , inset , polygon
 shape outside for nonspacing for clip path: value same clip-path;
 shape-margin use in shapeoutside; in pixels.
 
-  
+
 
 Filter for apply on images .. values none, blur(),brightness(),constrast(),drop-shadow(),grayscale(),hue-rotate(),invert(),opacity(), saturate() ,sepia() , url()
-   
    
 
   

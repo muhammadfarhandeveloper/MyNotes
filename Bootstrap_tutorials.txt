@@ -1,10 +1,10 @@
 
 What is Bootstrap ?
- 
+CSS Framework 
 Bootstrap 3 VS Bootstrap 4 VS Bootstrap 5.
- 
+
 How many framework of CSS ?
- 
+
 Bootstrap. 
 Tailwind CSS. 
 Foundation. 
@@ -92,7 +92,8 @@ Same value 0  to 5.
 
   same work as a justify-content.
 
-  justify-content-center , justify-content-end , justify-content-start , justify-content-arrond , justify-content-space , justify-content-between.
+  justify-content-center , justify-content-end , justify-content-start , justify-content-arrond , justify-content-space , 
+justify-content-between.
    
    same work on mid-point. 
  
